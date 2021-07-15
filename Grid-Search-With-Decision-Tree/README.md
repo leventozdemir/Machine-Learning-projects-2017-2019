@@ -3,7 +3,7 @@
 # Grid Search With Decision Tree
 ### To understand the code you must learn (Decision tree algorithm, ROC, AUC, Grid_searcher, predict_proba)
 
-#### We will use the dataset from a Kaggle machine learning competition Click-Through Rate Prediction (https://www.kaggle.com/c/a vazu-ctr-prediction).
+#### We will use the dataset from a Kaggle machine learning competition Click-Through Rate Prediction (https://www.kaggle.com/c/avazu-ctr-prediction).
 
 ## The data fields are described as follows:
 1-id: ad identifier, such as 1000009418151094273, 10000169349117863715.
