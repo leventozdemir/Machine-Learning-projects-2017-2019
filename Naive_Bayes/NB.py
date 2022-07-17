@@ -1,6 +1,6 @@
 
 
-# read all of the email text files and keep the ham/spam class information 
+# read all of the email text files and keep the ham/spam class information
 #in the label variable where 1 represents spam email and 0 otherwise.
 import os , glob
 
@@ -140,7 +140,7 @@ mails_test1 = [
                   michael sergeev - eb 3132 a
                   also the sun blocker that was taken away from eb 3131 a .
                   trisha should two monitors also michael .
-                  thanks 
+                  thanks
                   kevin moore''' ,
                   '''Subject: re : patchs work better then pillz
 worlds first dermal p ; atch technology for p * nis enlarg ; ment
@@ -247,7 +247,7 @@ k = 10
 k_fold = StratifiedKFold(n_splits=k)
 max_features_option = [2000, 4000, 8000]
 cleaned_mails_np = np.array(cleaned_mails)
-smoothing_factor_option = [0.5, 1.0, 1.5, 2.0]
+smoothing_factor_option = [0.5, 1.1, 1.5, 2.0]
 labels_np = np.array(labels)
 fit_prior_option=[False,True]
 auc_record = {}
@@ -277,7 +277,3 @@ for max_features, max_feature_record in auc_record.items():
     for smoothing, smoothing_record in max_feature_record.items():
         for fit_prior , auc  in smoothing_record.items():
             print('       {0}      {1}      {2}     {3:.4f}'.format(max_features, smoothing, fit_prior, auc/k))
-
-
-
-
