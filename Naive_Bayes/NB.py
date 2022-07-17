@@ -247,7 +247,7 @@ k = 10
 k_fold = StratifiedKFold(n_splits=k)
 max_features_option = [2000, 4000, 8000]
 cleaned_mails_np = np.array(cleaned_mails)
-smoothing_factor_option = [0.5, 1.1, 1.5, 2.0]
+smoothing_factor_option = [0.5, 1.0, 1.5, 2.0]
 labels_np = np.array(labels)
 fit_prior_option=[False,True]
 auc_record = {}
